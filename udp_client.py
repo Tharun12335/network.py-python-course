@@ -16,6 +16,6 @@ while True:
 
     # Check if the message is "EXIT"
     if message == "EXIT":
-        print("Closing socket...")
+        print("Closing socket...") # random comment
         client_socket.close()
         break
